@@ -55,18 +55,20 @@ function ARView() {
                 borderRadius: '18px',
                 left: '50%',
                 transform: 'translateX(-50%)',
-                display: 'inline-flex',
                 alignItems: 'center',
                 minWidth: '180px',
                 whiteSpace: 'nowrap',
-                
+                textAlign: 'center',
+                padding: '0.5rem 1rem',
+                display: 'flex',
+                justifyContent: 'center',
                 background: 'white',
               }}
             >
               <a id="default-ar-button"  className="fab" aria-label="View in your space" style={{ transform: 'scale(0.8)' }}>
                 {/* Acá va tu SVG */}
               </a>
-              <p style={{ marginBottom: '0px', marginLeft: '0.3rem', marginRight: '0.3rem', color: 'black' }}>
+              <p style={{ marginBottom: '0px', marginLeft: '0.3rem', marginRight: '0.3rem', color: 'black', textAlign: 'center' }}>
                 Ver en tu espacio
               </p>
             </button>
