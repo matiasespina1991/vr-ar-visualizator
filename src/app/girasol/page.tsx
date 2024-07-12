@@ -5,7 +5,7 @@ import Script from 'next/script';
 import Head from 'next/head';
 
 function ARView() {
-  const glbUrl = "https://firebasestorage.googleapis.com/v0/b/vr-ar-visualizator.appspot.com/o/models%2FGirasol.glb?alt=media&token=bff4c6c4-0ba6-47e7-9a20-cafd1d47c66b";
+  const glbUrl = "https://firebasestorage.googleapis.com/v0/b/vr-ar-visualizator.appspot.com/o/models%2Fgirasol.glb?alt=media&token=e16538e0-c677-453c-9963-206d393945c9";
   const usdzUrl = ""; // Si tienes el URL del archivo USDZ, puedes añadirlo aquí
   const isInteriorModel = false; // Cambia esto si es necesario
 
